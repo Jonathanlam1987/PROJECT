@@ -7,13 +7,27 @@ const app = express();
 const PORT = 8888;
 
 
+// CONFIG EXPRESS TO USE HANDLEBARS
+app.set('view engine', 'handlebars');
+app.engine('handlebars', expressHandlebars({
+        defaultLayout: 'main',
+        layoutsDir: __dirname + '/views/layouts',
+        partialsDir: __dirname + '/views/partials',
+}));
+
+// IMPORT ROUTES
+const postCity = require('./routes/city')
+
 // MIDDLEWARE 
-
-
+app.use(express.static(__dirname + '/public'));
+app.use(express.urlencoded({ extended: false }));
+app.use('/city', postCity)
 
 
 // ROUTING
-
+app.get('/', (req, res) => {
+    res.render('home');
+})
 
 
 

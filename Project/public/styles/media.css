@@ -1,0 +1,25 @@
+
+
+
+@media screen and (max-width: 600px){
+    .signup{
+        width: 400px;
+        height: 500px;
+    }
+    form{
+        margin-left: 20%;
+    }   
+    .container-2{
+        visibility: hidden;
+    } 
+    .container-ad{
+        visibility: hidden;
+    } 
+   
+}
+@media screen and (min-width: 600px){
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+}
+

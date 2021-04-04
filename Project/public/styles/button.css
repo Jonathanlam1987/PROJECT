@@ -1,0 +1,76 @@
+
+
+
+
+  button{
+    background-color: rgb(207, 198, 198);
+    outline: none;
+    border: none;
+    opacity: 80%;
+  }
+   
+  .signup-button{
+    background-color: #19301b;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    font-size: small;
+    border-radius: 10px;
+    opacity: 80%;
+  }
+
+
+  .cancel-button{
+    background-color: #19301b;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    font-size: small;
+    border-radius: 10px;
+    opacity: 80%;
+  }
+
+  .save-button{
+    background-color: #19301b;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    font-size: small;
+    border-radius: 10px;
+    opacity: 80%;
+  }
+
+  .submit-button{
+    background-color: #19301b;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    font-size: small;
+    border-radius: 10px;
+    opacity: 80%;
+  }
+
+  .login-button{
+    background-color: #19301b;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    font-size: small;
+    border-radius: 10px;
+    opacity: 80%;
+  }

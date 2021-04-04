@@ -1,0 +1,16 @@
+/* .ul-items {
+    background-color: rgb(236, 229, 229);
+    height: 400px;
+} */
+
+.ul-items {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    row-gap: 3px;
+    column-gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: var(--black);
+  }
