@@ -1,0 +1,220 @@
+
+[
+{
+
+    "name": "Pigeon Hole",
+    "price": "$$$$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/pigeon.jpg",
+    "neighborhood": "Victoria Park",
+    "cuisine": "American"
+    },
+    {
+    "name": "Foreign Concept",
+    "price": "$$$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/foreign.jpg",
+    "neighborhood": "Victoria Park",
+    "cuisine": "Asian"
+    },
+    {
+    "name": "Starbucks",
+    "price": "$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/starbucks.jpg",
+    "neighborhood": "Victoria Park",
+    "cuisine": "Coffee"
+    },
+    {
+    "name": "10 Foot Henry",
+    "price": "$$$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/10.jpg",
+    "neighborhood": "Victoria Park",
+    "cuisine": "Vegeterian"
+    },
+    {
+    "name": "Sweet Relief",  
+    "price": "$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/sweet.jpg",
+    "neighborhood": "Victoria Park",
+    "cuisine": "Bakery"
+    },
+    {
+    "name": "Awesome Kitchen",
+    "price": "$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/awesome.jpg",
+    "neighborhood": "Victoria Park",
+    "cuisine": "Pizza"
+    },
+
+
+
+
+
+
+    {
+    "name": "Nupo",
+    "price": "$$$$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/nupo.jpg",
+    "neighborhood": "East Village",
+    "cuisine": "Asian"
+    },
+    {
+    "name": "Phils & Sebastian",
+    "price": "$$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/phils.jpg",
+    "neighborhood": "East Village",
+    "cuisine": "Coffee"
+    },
+    {
+    "name": "King Eddy",
+    "price": "$$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/kingeddy.jpg",
+    "neighborhood": "East Village",
+    "cuisine": "American"
+    },
+    {
+    "name": "Bookers",
+    "price": "$$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/bookers.jpg",
+    "neighborhood": "East Village",
+    "cuisine": "American"
+    },
+    {
+    "name": "Mari Bakeshop",
+    "price": "$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/mari.jpg",
+    "neighborhood": "East Village",
+    "cuisine": "Bakery"
+    },
+
+
+
+
+
+
+    {
+    "name": "Alumni",
+    "price": "$$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/alumni.jpg",
+    "neighborhood": "East Village",
+    "cuisine": "American"
+    },
+    {
+    "name": "The Coup",
+    "price": "$$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/coup.jpg",
+    "neighborhood": "East Village",
+    "cuisine": "Vegeterian"
+    },
+    {
+    "name": "UNA",
+    "price": "$$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/una.jpg",
+    "neighborhood": "17th Ave SW",
+    "cuisine": "Pizza"
+    },
+    {
+    "name": "Cafe Beano",
+    "price": "$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/beano.jpg",
+    "neighborhood": "17th Ave SW",
+    "cuisine": "Coffee"
+    },
+    {
+    "name": "Pho",
+    "price": "$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/pho.jpg",
+    "neighborhood": "17th Ave SW",
+    "cuisine": "Asian"
+    },
+    {
+    "name": "Damascus",
+    "price": "$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/damascus.jpg",
+    "neighborhood": "17th Ave SW",
+    "cuisine": "Middle Eastern"
+    },
+    {
+    "name": "Nami",
+    "price": "$$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/nami.jpg",
+    "neighborhood": "17th Ave SW",
+    "cuisine": "Asian"
+    },
+    {
+    "name": "National",
+    "price": "$$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/national.jpg",
+    "neighborhood": "17th Ave SW",
+    "cuisine": "American"
+    },
+    {
+    "name": "Butter Block",
+    "price": "$",
+    "city": "Calgary",
+    "imageURL": "imgs/calgary/butter.jpg",
+    "neighborhood": "17th Ave SW",
+    "cuisine": "Bakery"
+    },
+
+
+
+
+
+
+
+
+
+    {
+    "name": "Minami",
+    "price": "$$$$$",
+    "city": "Vancouver",
+    "imageURL": "imgs/vancouver/minami.jpg",
+    "neighborhood": "Yaletown",
+    "cuisine": "asian"
+    },
+    {
+    "name": "Rodney's Oyster House",
+    "price": "$$$",
+    "city": "Vancouver",
+    "imageURL": "imgs/vancouver/rodneys.jpg",
+    "neighborhood": "Yaletown",
+    "cuisine": "Seafood"
+    },
+    {
+    "name": "Flying Pig",
+    "price": "$$",
+    "city": "Vancouver",
+    "imageURL": "imgs/vancouver/flyingpig.jpg",
+    "neighborhood": "Yaletown",
+    "cuisine": "American"
+    },
+    {
+    "name": "JJ Bean",
+    "price": "$",
+    "city": "Vancouver",
+    "imageURL": "imgs/vancouver/jj.jpg",
+    "neighborhood": "Yaletown",
+    "cuisine": "Coffee"
+    }
+]
+    
+    
+

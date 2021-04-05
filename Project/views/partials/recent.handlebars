@@ -1,39 +1,40 @@
+<nav class="container-2">
+    <hr>
+        <li class="nav-links">
+            <a href="/product"><button>all</button></a>
 
-
-
-<form class="container-2">
-    <h3>Recent</h3>
-        <container class="recent-1">
-            <hr>
-                <ul class="blogs-links">
-                    <li>
-                        {{#each itemCuisine}}
-                    </li>
-                        <a href="?category={{this}}"><button>{{this}}</button></a>
-                    <li>
-
-                    </li>
-
-                    <li>
-
-                    </li>
-                    {{/each}}
-                </ul>
-         </container>
-            <hr>
-</form> 
+        <li>
+            <a href="/city"><button>City</button></a>
+        </li>   
+         <li>
+            <a href="/cuisine"><button>Cuisine</button></a>
+        </li>   
+         <li>
+            <a href="/price"><button>Price</button></a>
+        </li>   
+     
+    <hr>
 
 
 <section class="content">
-    <ul class="items">
-        {{#each items}}
+    <ul class="ul-items">
+            
+        {{#each products}}
         <li>
-            <img src={{imageUrl}} alt="" height="50px" width="50px" />
-            <h2>{{name}}</h2>
-            <span>${{price}}</span>
-            <p>{{description}}</p>
-            <button id={{_id}}>Add To Cart</button>
+            <h5>{{ name }}   {{ price }}</h5>
+            <p><h5>{{ city }} - {{ neighborhood }}</h5></p>
+            <a href="/blog"><button id={{_id}}>go to page</button></a>
+            <hr>
         </li>
         {{/each}}
     </ul>
+
 </section>
+
+
+</nav>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="scripts/script.js"></script> 
