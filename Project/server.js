@@ -5,7 +5,7 @@ const expressHandlebars = require('express-handlebars');
 const { Restautant } = require('./models/products.js')
 
 const { renderSignupForm, renderLoginForm } = require('./controllers/userControllers.js')
-// const { renderProductsList } = require('./controllers/productControllers.js')
+const { renderProductsList } = require('./controllers/productControllers.js')
 
 const app = express();
 const PORT = 8888;
@@ -40,15 +40,19 @@ app.get('/blog', (req, res) => {
     res.render('blog')
 });
 
-app.get('/product', (req, res) => {
-    Restautant.find()
-    .then((results) => {
-        res.render('home', { Restautants : Restautant });
-    })
-    .catch((err) => {
-        console.log(err);
-    })
-})
+app.get('/', renderProductsList)
+
+
+
+// app.get('/product', (req, res) => {
+//     Restautant.find()
+//     .then((results) => {
+//         res.render('home', { Restautants : Restautant });
+//     })
+//     .catch((err) => {
+//         console.log(err);
+//     })
+// })
 
 
 app.get('/sam', (req, res) => {
@@ -61,15 +65,6 @@ app.get('/sam', (req, res) => {
     })
 })
 
-//ERROR HANLDING MIDDLEWARE
-// app.use((req, res, next) => {
-//     res.status(404).render("error", { message: "Page not found" });
-//   });
-  
-//   app.use((err, req, res, next) => {
-//     console.log(err);
-//     res.status(500).render("error", { message: err.message });
-//   });
 
 
 

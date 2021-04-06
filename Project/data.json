@@ -1,7 +1,6 @@
 
 [
 {
-
     "name": "Pigeon Hole",
     "price": "$$$$",
     "city": "Calgary",
@@ -205,15 +204,8 @@
     "imageURL": "imgs/vancouver/flyingpig.jpg",
     "neighborhood": "Yaletown",
     "cuisine": "American"
-    },
-    {
-    "name": "JJ Bean",
-    "price": "$",
-    "city": "Vancouver",
-    "imageURL": "imgs/vancouver/jj.jpg",
-    "neighborhood": "Yaletown",
-    "cuisine": "Coffee"
     }
+
 ]
     
     

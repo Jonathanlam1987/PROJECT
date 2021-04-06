@@ -15,7 +15,7 @@
     position: relative;
     opacity: 80%;
   }
-  .container-1 {
+  .container-intro {
     position: absolute;
     left: 30px;
     top: 50px;
@@ -27,7 +27,7 @@
     opacity: 90%;
     border-radius: 20px;
   }
-  .container-2 {
+  .container-search {
     position: absolute;
     left: 500px;
     top: 50px;
@@ -39,7 +39,7 @@
     opacity: 90%;
     border-radius: 20px;
   }
-  .container-3 {
+  .container-trending {
     position: absolute;
     left: 30px;
     top: 330px;
@@ -74,7 +74,7 @@
 
   .container-signup {
     position: absolute;
-    left: 40px;
+    left: 70px;
     top: 0px;
     margin: 20px;
     max-width: 400px;
