@@ -1,4 +1,4 @@
-const { listItems } = require("../services/productServices.js");
+const { listItems } = require("../services/productService.js");
 const { cuisineVar } = require('../models/products.js')
 
 async function renderProductsList(req, res) {

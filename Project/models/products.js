@@ -1,8 +1,8 @@
-const mongoose = require('../db');
-const { priceVar, cityVar, cuisineVar } = require('../data/data.js')
+const mongoose = require('../db.js');
 const Schema = mongoose.Schema;
 const cuid = require('cuid');
 
+const { priceVar, cityVar, cuisineVar } = require('../data/data.js')
 
 
 const restaurantSchema = new Schema({

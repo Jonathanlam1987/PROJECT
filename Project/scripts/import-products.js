@@ -1,6 +1,6 @@
 
 const  mongoose  = require('../db')
-const { createNewItemToMongo } = require('../services/productServices.js')
+const { createNewItemToMongo } = require('../services/productService.js')
 
 const restaurants = require('../data.json')
 

@@ -2,10 +2,16 @@ require('dotenv').config();
 const express = require('express');
 const expressHandlebars = require('express-handlebars');
 
+
+// M/I FROM MODELS
 const { Restaurants } = require('./models/products.js')
 
-const { renderSignupForm, renderLoginForm } = require('./controllers/userControllers.js')
+// M/I FROM CONTROLLERS
+const { renderSignupForm, renderLoginForm,
+        processSignupSubmission, processLoginSubmission,
+        renderOut} = require('./controllers/userControllers.js')
 const { renderProductsList } = require('./controllers/productControllers.js')
+
 
 const app = express();
 const PORT = 8888;
@@ -29,17 +35,26 @@ app.use('/city', postCity)
 
 
 // ROUTING
-// app.get("/", renderProductsList);
+app.get('/', renderProductsList);
+app.get('/logout', renderOut);
+
+app.get('/signup', renderSignupForm);
+app.post('signup', processSignupSubmission);
+
+app.get('/login', renderLoginForm);
+app.post('/login', processLoginSubmission);
 
 
-app.get('/signup', renderSignupForm )
-app.get('/login', renderLoginForm )
+
+
+
+
 
 app.get('/blog', (req, res) => {
     res.render('blog')
 });
 
-app.get('/', renderProductsList)
+
 
 
 
