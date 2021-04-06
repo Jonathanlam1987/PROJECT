@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const expressHandlebars = require('express-handlebars');
 
-const { Restautant } = require('./models/products.js')
+const { Restaurants } = require('./models/products.js')
 
 const { renderSignupForm, renderLoginForm } = require('./controllers/userControllers.js')
 const { renderProductsList } = require('./controllers/productControllers.js')
@@ -30,9 +30,8 @@ app.use('/city', postCity)
 
 // ROUTING
 // app.get("/", renderProductsList);
-app.get('/', (req, res) => {
-    res.render('home')
-});
+
+
 app.get('/signup', renderSignupForm )
 app.get('/login', renderLoginForm )
 
@@ -56,7 +55,7 @@ app.get('/', renderProductsList)
 
 
 app.get('/sam', (req, res) => {
-    Restautant.find()
+    Restaurants.find()
     .then((results) => {
         res.send(results)
     })

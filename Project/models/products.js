@@ -29,7 +29,7 @@ const restaurantSchema = new Schema({
 });
 
 
-const Restautant = mongoose.model('Restautant', restaurantSchema);
+const Restaurants = mongoose.model('Restaurants', restaurantSchema);
 module.exports = {
-  Restautant
+  Restaurants
 }

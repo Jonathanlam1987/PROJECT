@@ -5,9 +5,11 @@ const { createNewItemToMongo } = require('../services/productServices.js')
 const restaurants = require('../data.json')
 
 (async function () {
-    for ( restaurant of restaurants) {
-        await createNewItemToMongo(restaurant);
+    for ( restaurants of restaurants) {
+        await createNewItemToMongo(restaurants);
     }
 
     mongoose.disconnect();
 })();
+
+

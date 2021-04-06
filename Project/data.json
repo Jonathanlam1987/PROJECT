@@ -5,6 +5,7 @@
     "price": "$$$$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/pigeon.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "Victoria Park",
     "cuisine": "American"
     },
@@ -13,6 +14,7 @@
     "price": "$$$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/foreign.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "Victoria Park",
     "cuisine": "Asian"
     },
@@ -21,6 +23,7 @@
     "price": "$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/starbucks.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "Victoria Park",
     "cuisine": "Coffee"
     },
@@ -29,6 +32,7 @@
     "price": "$$$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/10.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "Victoria Park",
     "cuisine": "Vegeterian"
     },
@@ -37,6 +41,7 @@
     "price": "$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/sweet.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "Victoria Park",
     "cuisine": "Bakery"
     },
@@ -45,6 +50,7 @@
     "price": "$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/awesome.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "Victoria Park",
     "cuisine": "Pizza"
     },
@@ -59,6 +65,7 @@
     "price": "$$$$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/nupo.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "East Village",
     "cuisine": "Asian"
     },
@@ -67,6 +74,7 @@
     "price": "$$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/phils.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "East Village",
     "cuisine": "Coffee"
     },
@@ -75,6 +83,7 @@
     "price": "$$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/kingeddy.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "East Village",
     "cuisine": "American"
     },
@@ -83,6 +92,7 @@
     "price": "$$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/bookers.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "East Village",
     "cuisine": "American"
     },
@@ -91,6 +101,7 @@
     "price": "$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/mari.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "East Village",
     "cuisine": "Bakery"
     },
@@ -105,6 +116,7 @@
     "price": "$$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/alumni.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "East Village",
     "cuisine": "American"
     },
@@ -113,6 +125,7 @@
     "price": "$$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/coup.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "East Village",
     "cuisine": "Vegeterian"
     },
@@ -121,6 +134,7 @@
     "price": "$$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/una.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "17th Ave SW",
     "cuisine": "Pizza"
     },
@@ -129,6 +143,7 @@
     "price": "$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/beano.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "17th Ave SW",
     "cuisine": "Coffee"
     },
@@ -137,6 +152,7 @@
     "price": "$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/pho.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "17th Ave SW",
     "cuisine": "Asian"
     },
@@ -145,6 +161,7 @@
     "price": "$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/damascus.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "17th Ave SW",
     "cuisine": "Middle Eastern"
     },
@@ -153,6 +170,7 @@
     "price": "$$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/nami.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "17th Ave SW",
     "cuisine": "Asian"
     },
@@ -161,6 +179,7 @@
     "price": "$$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/national.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "17th Ave SW",
     "cuisine": "American"
     },
@@ -169,6 +188,7 @@
     "price": "$",
     "city": "Calgary",
     "imageURL": "imgs/calgary/butter.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "17th Ave SW",
     "cuisine": "Bakery"
     },
@@ -186,6 +206,7 @@
     "price": "$$$$$",
     "city": "Vancouver",
     "imageURL": "imgs/vancouver/minami.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "Yaletown",
     "cuisine": "asian"
     },
@@ -194,6 +215,7 @@
     "price": "$$$",
     "city": "Vancouver",
     "imageURL": "imgs/vancouver/rodneys.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "Yaletown",
     "cuisine": "Seafood"
     },
@@ -202,6 +224,7 @@
     "price": "$$",
     "city": "Vancouver",
     "imageURL": "imgs/vancouver/flyingpig.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquam in quod unde. Cum voluptates, distinctio minus doloribus dolorum deleniti saepe harum culpa necessitatibus quod similique inventore? Ducimus, unde obcaecati!",
     "neighborhood": "Yaletown",
     "cuisine": "American"
     }
@@ -209,4 +232,6 @@
 ]
     
     
+
+
 

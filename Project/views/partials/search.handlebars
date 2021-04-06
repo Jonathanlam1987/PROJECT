@@ -18,11 +18,12 @@
 
 <section class="content">
     <ul class="items">
-            hi
+           
         {{#each items}}
         <li>
             <h5>{{ name }}   {{ price }}</h5>
             <p><h5>{{ city }} - {{ neighborhood }}</h5></p>
+            {{ description }}
             <a href="/blog"><button id={{_id}}>go to page</button></a>
             <hr>
         </li>

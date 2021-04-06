@@ -1,11 +1,11 @@
-const { Restautant } = require("../models/products.js");
+const {  Restaurants } = require("../models/products.js");
 
 function createNewItemToMongo(fields) {
-  return new Restautant(fields).save();
+  return new Restaurants(fields).save();
 }
 
 function listItems() {
-  return Restautant.find().setOptions({ lean: true }).exec();
+    return Restaurants.find().setOptions({ lean: true }).exec();
 }
 
 module.exports = {
