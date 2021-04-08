@@ -4,7 +4,7 @@
 }
   
 .items {
-  background-color: rgb(201, 198, 198);
-  min-width: 700px;
-  height: 200px;
+  background-color: rgb(233, 231, 231);
+  max-width: 700px;
+  min-height: 200px;
 } 

@@ -1,39 +1,68 @@
 <nav class="container-search">
-    <hr>
-        <li class="nav-links">
-            <a href="/"><button>all</button></a>
+        <hr>
+            <ul class="nav-links">
+                <a href="/"><button>all</button></a>
 
-        <li>
-            <a href="/city"><button>City</button></a>
-        </li>   
-         <li>
-            <a href="/cuisine"><button>Cuisine</button></a>
-        </li>   
-         <li>
-            <a href="/price"><button>Price</button></a>
-        </li>   
-     
-    <hr>
+            <li>
+                <a href="/city"><button>City</button></a>
+            </li>   
+            <li>
+                <a href="/cuisine"><button>Cuisine</button></a>
+            </li>   
+            <li>
+                <a href="/price"><button>Price</button></a>
+            </li>   
+        </ul>
+    
+        
+            <ul class="nav-links">
+            <li>
+                <a href="/"><button>All</button></a>
+            </li>
+                 {{#each varCity}}
+            <li>
+                <a href="?city={{this}}"><button>{{this}}</button></a>
+            </li>
+                 {{/each}}
+        </ul>
+
+        
+        <hr>
+
+  <section class="content">
+        <ul class="items">
+            
+            {{#each items}}
+            <li>
+                <img src="{{imageUrl}}" alt="img" height="100px" width="100px" />
+                {{ imageURL }}
+                <h5>{{ name }}  - {{ price }}</h5>
+                <p><h5>{{ city }} - {{ neighborhood }}</h5></p>
+                {{description }}
+                
+                <a href="/blog"><button id={{_id}}>go to page</button></a>
+                <hr>
+            </li>
+            {{/each}}
+        </ul>
+
+    </section>
+</nav> 
 
 
-<section class="content">
-    <ul class="items">
-           
-        {{#each items}}
-        <li>
-            <h5>{{ name }}   {{ price }}</h5>
-            <p><h5>{{ city }} - {{ neighborhood }}</h5></p>
-            {{ description }}
-            <a href="/blog"><button id={{_id}}>go to page</button></a>
-            <hr>
-        </li>
-        {{/each}}
-    </ul>
-
-</section>
 
 
-</nav>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

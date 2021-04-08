@@ -9,7 +9,7 @@ function renderSignupForm(req, res) {
 async function processSignupSubmission(req, res, next) {
   let token; 
   try {
-    token = await createUser({ ...req.body, category: " customer "});
+    token = await createUser({ ...req.body, category: "customer"});
   } catch (error) {
     next(error);
   }
@@ -18,9 +18,9 @@ async function processSignupSubmission(req, res, next) {
     message = 'Sorry, username is already taken';
   } else if (token) {
     res.cookie('jwt', token, { httpOnly: true });
-    message = ' You just created an account !';
+    message = 'You just created an account !';
   } else {
-    message = ' An error has occured, please try again!'
+    message = 'An error has occured, please try again!'
   }
   res.render('signup', {
     layouts: 'alternative',

@@ -8,7 +8,15 @@ function listItems() {
     return Restaurants.find().setOptions({ lean: true }).exec();
 }
 
+
+function cityVancouver() {
+  return Restaurants.find({ 'city': 'Vancouver' })
+}
+
+
+
 module.exports = {
   createNewItemToMongo,
   listItems,
+  cityVancouver
 };

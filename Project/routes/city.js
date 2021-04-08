@@ -1,11 +1,12 @@
 const express = require('express');
 const { Restaurants } = require('../models/products');
 const router = express.Router();
-
+const { cityVancouver } = require('../services/productService.js')
 
 router.get('/', (req, res) => {
-    res.send('we are on city page')
+    res.send('hiiii city')
 });
+
 router.get('/calgary', (req, res) => {
     res.send('Calgary')
 });

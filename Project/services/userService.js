@@ -16,7 +16,6 @@ async function createUser(fields) {
     return auth.sign(fields.name);
     }
 
-
 async function loginUser(name, password) {
     foundUser = await User.findOne({ name }).exec();
     if (!foundUser) {
@@ -34,6 +33,10 @@ async function loginUser(name, password) {
 function getUser(name) {
     return User.findOne({ name }).exec();
 }
+
+
+
+
 
 module.exports = {
     createUser,

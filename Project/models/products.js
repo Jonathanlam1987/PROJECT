@@ -24,12 +24,12 @@ const restaurantSchema = new Schema({
       type: String,
       index: true,
       enum: cuisineVar,
-    
     },
 });
 
 
 const Restaurants = mongoose.model('Restaurants', restaurantSchema);
+
 module.exports = {
   Restaurants
 }

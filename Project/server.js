@@ -7,11 +7,10 @@ const expressHandlebars = require('express-handlebars');
 const { Restaurants } = require('./models/products.js')
 
 // M/I FROM CONTROLLERS
-const { renderSignupForm, renderLoginForm,
-        processSignupSubmission, processLoginSubmission,
-        renderOut} = require('./controllers/userControllers.js')
-const { renderProductsList } = require('./controllers/productControllers.js')
-
+const { renderSignupForm, renderLoginForm, processSignupSubmission,
+        processLoginSubmission } = require('./controllers/userControllers.js')
+const { renderProductsList, renderVancouver } = require('./controllers/productControllers.js')
+const {cityVancouver} = require('./services/productService.js')
 
 const app = express();
 const PORT = 8888;
@@ -23,7 +22,15 @@ app.engine('handlebars', expressHandlebars({
         defaultLayout: 'main',
         layoutsDir: __dirname + '/views/layouts',
         partialsDir: __dirname + '/views/partials',
-}));
+        helpers: {
+            getShortComment(description){
+                if (description.legth < 65) {
+                    return description
+                }
+                return description.substring(0,61) + '...';
+                }
+            }
+        }));
 
 // IMPORT ROUTES
 const postCity = require('./routes/city')
@@ -36,7 +43,7 @@ app.use('/city', postCity)
 
 // ROUTING
 app.get('/', renderProductsList);
-app.get('/logout', renderOut);
+// app.get('/logout', renderOut);
 
 app.get('/signup', renderSignupForm);
 app.post('signup', processSignupSubmission);
@@ -46,14 +53,9 @@ app.post('/login', processLoginSubmission);
 
 
 
-
-
-
-
 app.get('/blog', (req, res) => {
     res.render('blog')
 });
-
 
 
 
@@ -79,7 +81,15 @@ app.get('/sam', (req, res) => {
     })
 })
 
-
+app.get('/vancouver', (req, res) => {
+    Restaurants.find({ 'city': 'Vancouver'})
+    .then((results) => {
+        res.send(results)
+    })
+    .catch((err) => {
+        console.log(err);
+    })
+})
 
 
 
